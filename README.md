@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Alumni-Connect...
 =======
+=======
+>>>>>>> 5407d43 (Intial Commit)
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -55,4 +58,7 @@ export default tseslint.config({
   },
 })
 ```
+<<<<<<< HEAD
 >>>>>>> 9bdaedd (Chnage folder Structure)
+=======
+>>>>>>> 5407d43 (Intial Commit)
