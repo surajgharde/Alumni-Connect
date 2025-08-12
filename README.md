@@ -20,28 +20,7 @@ This project is built using a modern web development stack, leveraging the follo
 
 ## Project Structure
 
-The repository is structured as follows:
-
-```
-
-Alumni-Connect/
-├── public/               \# Static assets (e.g., images, icons)
-├── src/                  \# Source code for the application
-│   ├── assets/           \# Application assets
-│   ├── components/       \# Reusable UI components
-│   ├── pages/            \# Application pages
-│   ├── App.tsx           \# Main application component
-│   └── main.tsx          \# Entry point of the application
-├── .gitignore            \# Specifies files to be ignored by Git
-├── README.md             \# This file
-├── eslint.config.js      \# ESLint configuration file
-├── index.html            \# Main HTML file
-├── package-lock.json     \# Records the exact versions of dependencies
-├── package.json          \# Project dependencies and scripts
-├── tsconfig.app.json     \# TypeScript configuration for the application
-├── tsconfig.json         \# Base TypeScript configuration
-├── tsconfig.node.json    \# TypeScript configuration for Node.js
-└── vite.config.ts        \# Vite configuration file
+ 
 
 ````
 
