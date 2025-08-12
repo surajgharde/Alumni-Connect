@@ -9,7 +9,6 @@ import {
   useColorModeValue,
   createIcon,
   Flex,
-  Image,
   SimpleGrid
 } from '@chakra-ui/react';
 import { Link as RouterLink } from 'react-router-dom';
