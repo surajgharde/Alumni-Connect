@@ -1,4 +1,4 @@
-import {
+ import {
   Box,
   Container,
   Heading,
@@ -14,12 +14,7 @@ import {
   List,
   ListItem,
   useColorModeValue,
-  Tabs,
-  TabList,
-  Tab, 
-  TabPanels,
-  TabPanel,
-  useBreakpointValue
+  useBreakpointValue,
 } from '@chakra-ui/react';
 import { useEffect, useState, useRef } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
@@ -175,7 +170,7 @@ const MessageBubble = ({ message, isCurrentUser }: MessageBubbleProps) => {
 
 export default function Messages() {
   const { id } = useParams<{ id: string }>();
-  const { isAuthenticated, user } = useAuth();
+  const { user } = useAuth();
   const navigate = useNavigate();
   const [conversations, setConversations] = useState<{conversation: Conversation; participant: UserProfile}[]>([]);
   const [selectedUserId, setSelectedUserId] = useState<number | null>(id ? Number(id) : null);
@@ -511,4 +506,4 @@ export default function Messages() {
       )}
     </Container>
   );
-} 
+}
